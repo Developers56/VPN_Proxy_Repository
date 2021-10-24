@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#081F28"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/dlgesttv"
+        android:src="@drawable/ic_exit_dilaogbtn"
+        android:layout_marginTop="40dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dlgesttv"
+        android:text="Do You Want to Exit"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/id_tv_thnx"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_tv_thnx"
+        android:text="Rate this App"
+        android:layout_centerHorizontal="true"
+        android:textSize="16sp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:id="@+id/id_tv_support"
+        />
+    <RatingBar
+        android:id="@+id/simpleRatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/id_tv_support"
+        android:progressBackgroundTint="#0A3048"
+        android:rating="0"
+        />
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/simpleRatingBar"
+    android:layout_centerInParent="true"
+    android:layout_marginBottom="15dp"
+    >
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_dwn_upl"
+        android:text="Exit"
+        android:layout_marginTop="20dp"
+        android:id="@+id/extbtn"
+        android:layout_marginLeft="3dp"
+        android:textColor="@color/white"
+        android:layout_alignParentLeft="true"
+        />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_rateus"
+        android:text="Rate us"
+        android:id="@+id/extback"
+        android:layout_marginRight="3dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_alignParentRight="true"
+        />
+</RelativeLayout>
+
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "579509781463",
+    "project_id": "microvpn-8b511",
+    "storage_bucket": "microvpn-8b511.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:579509781463:android:353cbb535bd2f29db98192",
+        "android_client_info": {
+          "package_name": "com.example.microvpn"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "579509781463-douo94u9j2kirlitn5o6kcd58l5ddfbi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAdNHp6tcUSxXPdAfmnCtLWc-ik8GYllo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "579509781463-douo94u9j2kirlitn5o6kcd58l5ddfbi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

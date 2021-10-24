@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Micro VPN</string>
+    <string name="downlaodupload">UL: %1$s, DL: %2$s </string>
+    <string name="policyheadertrext">Lorem ipsum is the simply dummy text of the pointing and typeseeting industry</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+
+    <string name="facebook_app_id">292133439416154</string>
+    <string name="fb_login_protocol_scheme">fb292133439416154</string>
+
+    <string name="red">RED</string>
+    <string name="blue">BLUE</string>
+    <string name="green">GREEN</string>
+    <string name="yellow">YELLOW</string>
+    <string name="ADMOB_ADS_UNIT_ID">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="Interstitial_admob">"ca-app-pub-3940256099942544/1033173712"</string>-->
+    <string name="Banner_admob">"ca-app-pub-3940256099942544/6300978111"</string>
+</resources>

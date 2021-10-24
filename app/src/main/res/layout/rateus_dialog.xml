@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#081F28"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/dlgesttv"
+            android:src="@drawable/ic_rate_us"
+            android:layout_marginTop="20dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dlgesttv"
+            android:text="Thanks You for your"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/id_tv_thnx"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tv_thnx"
+            android:text="Love and Support"
+            android:layout_centerHorizontal="true"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:id="@+id/id_tv_support"
+            />
+        <RatingBar
+            android:id="@+id/simpleRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/id_tv_support"
+            android:progressBackgroundTint="#0A3048"
+            android:rating="0"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/simpleRatingBar"
+            android:text="Your 5 stars is best gift and \n encourage for us"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:id="@+id/id_tvencrg"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tvencrg"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="15dp"
+            >
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_dwn_upl"
+                android:text="Later"
+                android:layout_marginTop="20dp"
+                android:id="@+id/laterbtn"
+                android:layout_marginLeft="3dp"
+                android:textColor="@color/white"
+                android:layout_alignParentLeft="true"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_rateus"
+                android:text="Rate us"
+                android:layout_marginRight="3dp"
+                android:id="@+id/rateusbtn"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/white"
+                android:layout_alignParentRight="true"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

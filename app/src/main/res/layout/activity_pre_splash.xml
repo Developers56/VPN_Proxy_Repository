@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PreSplash"
+    android:background="@drawable/splbg"
+    >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:background="@drawable/ic_waves_spl"
+        android:layout_centerInParent="true"
+        android:id="@+id/idwavesapp"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_spl_icon"
+        android:layout_centerInParent="true"
+        android:id="@+id/idiconapp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idwavesapp"
+        android:layout_centerHorizontal="true"
+        android:text="VPN Proxy"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:id="@+id/idtextvpn"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idtextvpn"
+        android:layout_centerHorizontal="true"
+        android:text="Unblock any content"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        />
+</RelativeLayout>
+
+</RelativeLayout>

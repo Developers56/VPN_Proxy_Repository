@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="Profile"
+            />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_feedback"
+            android:title="Rate VPN" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_information"
+            android:title="About" />
+    </group>
+    <item android:title=""
+        android:id="@+id/idlogutmenu"
+        >
+        <menu>
+            <item
+                android:id="@+id/id_btnlogout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout"></item>
+        </menu>
+    </item>
+</menu>

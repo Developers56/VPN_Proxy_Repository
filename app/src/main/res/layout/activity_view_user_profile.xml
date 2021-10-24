@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewUserProfile"
+    android:background="@drawable/splbg"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/idviewname"
+            android:background="@drawable/edtrounded"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:drawablePadding="20dp"
+            android:paddingLeft="10dp"
+            android:textColorHint="#3D596D"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical"
+            android:textSize="22sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/idviewemail"
+            android:layout_below="@+id/idviewname"
+            android:background="@drawable/edtrounded"
+            android:textColor="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="22sp"
+            android:gravity="center_vertical"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:drawablePadding="20dp"
+            android:paddingLeft="10dp"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/idviewemail"
+            android:onClick="viewprofile"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/custom_rectangle"
+            android:text="View Profile"
+            />
+    </RelativeLayout>
+
+
+</RelativeLayout>

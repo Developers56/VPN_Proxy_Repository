@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splbg"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/reltsig"
+        android:layout_alignParentTop="true"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="VPN Proxy"
+            android:textStyle="bold"
+            android:textSize="35sp"
+            android:id="@+id/idvpnproxsig"
+            android:textColor="@color/white"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idvpnproxsig"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:text="Signup now to access faster internet \n more than 120+ locations"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:id="@+id/idtextsig"
+            android:textSize="18sp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:id="@+id/idrelsignwidg"
+        >
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:textColor="@color/white"
+            android:textColorHint="#3D596D"
+            android:background="@drawable/edtrounded"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_username"
+            android:hint="Username"
+            android:id="@+id/username"
+            android:textAlignment="textStart"
+            />
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="#3D596D"
+            android:background="@drawable/edtrounded"
+            android:layout_marginTop="15dp"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:drawableLeft="@drawable/ic_baseline_email_24"
+            android:hint="Email Address"
+            android:layout_below="@+id/username"
+            android:id="@+id/edtusernamesignup"
+            android:textAlignment="textStart"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/edtusernamesignup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="#3D596D"
+            android:inputType="textPassword"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edtrounded"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_password"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:hint="Password"
+            android:id="@+id/edtpasswordsignup"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/edtpasswordsignup"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="#3D596D"
+            android:textColor="@color/white"
+            android:inputType="textPassword"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edtrounded"
+            android:layout_marginTop="15dp"
+            android:drawableLeft="@drawable/ic_password"
+            android:paddingLeft="10dp"
+            android:drawablePadding="20dp"
+            android:hint="Confirm Password"
+            android:id="@+id/edtcnfrmpas"
+            />
+
+        <CheckBox
+            android:id="@+id/checkBoxsig"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginBottom="29dp"
+            android:layout_marginTop="10dp"
+            android:textColorHint="#20CEFD"
+            android:text="I agree with the terms of service and Policy"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:layout_below="@id/edtcnfrmpas"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/custom_rectangle"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@+id/checkBoxsig"
+            android:text="Signup"
+            android:onClick="Signup"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_arrow"
+            android:paddingRight="10dp"
+            android:textSize="18sp"
+            android:id="@+id/btnlogin"
+            />
+    </RelativeLayout>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_below="@+id/idrelsignwidg"
+    >
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:background="@drawable/roundedsocialbtn"
+        android:drawableLeft="@drawable/ic_gmail"
+        android:paddingLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:text="Login with Gmail"
+        android:onClick="signupviagoogle"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a member ? "
+        android:textColor="#3D596D"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/idalreadymmbr"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Login"
+        android:layout_marginBottom="10dp"
+        android:onClick="gotologin"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:layout_toEndOf="@id/idalreadymmbr"
+        />
+</RelativeLayout>
+</RelativeLayout>
